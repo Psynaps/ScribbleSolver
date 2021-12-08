@@ -1,0 +1,8 @@
+This final project for the course CMPM146 Game AI involved creating a local runtime app using the Scribble_Solver_App.ipynb. 
+The aim of the projewct was gamify Google's Quick, Draw! with the gameplay similar to Scribblenauts. You draw answers to provided scenarios that are recognized by the classifier. Gameplay can be seen in ScribbleSolverDemo.mp4
+
+In order to run the file you have to have the requisite packages installed: Tensorflow, Keras, OpenCV-python, and matplotlib
+
+You can run the app using our pretrained models by downloading the Quickdraw5.h5 and label_dict.pickle files and replacing the paths to them to your local paths within the quickdraw App. 
+Run the app in the Jupiter Notebook or Google Colab by running all import commands, running all blocks after the main app block, then run the app block which will create a app popup window where the game plays. 
+The running process is quite involved as this was simply a prototype and proof of concept for AI image classification made into a game. A video demo can be seen in the ScribbleSolverDemo.mp4 file. 
